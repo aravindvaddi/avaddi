@@ -1,0 +1,36 @@
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+}
+
+.navbarInnerWrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	max-width: 24rem;
+	max-height: 10rem;
+	align-items: center;
+	justify-content: space-around;
+	flex-grow: 1;
+}
+
+@media (max-width: 1100px) {
+	.navbar {
+		position: fixed;
+		top: auto;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #000;
+	}
+
+	.navbarInnerWrapper {
+		flex-direction: row;
+	}
+}
