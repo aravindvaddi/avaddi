@@ -39,3 +39,7 @@ strong {
   /* color: #cb4456; */
   color: #d65463;
 }
+
+li {
+  margin: 0 0 0.5rem;
+}
