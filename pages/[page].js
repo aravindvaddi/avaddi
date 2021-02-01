@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Layout from '../components/layout'
 import { getPageName, getPageContent } from '../lib/pages'
 import utilStyles from '../styles/utils.module.css'
@@ -20,7 +19,6 @@ export default function Page({ pageData }) {
 export async function getStaticPaths() {
 
 	const paths = getPageName()
-	console.log(paths)
 	return {
 		paths,
 		fallback: false
