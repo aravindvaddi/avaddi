@@ -1,6 +1,6 @@
 import Layout from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
-import { getPageContent, getLinkName } from '../lib/pages'
+import { getPageContent } from '../lib/pages'
 
 const page = 'home'
 
@@ -30,7 +30,7 @@ export default function Home({ pageContent, links }) {
 
 export async function getStaticProps() {
 
-	const links = getLinkName()
+	const links = ['home', 'resume', 'projects', 'contact'];
 	const pageContent = await getPageContent(page)
 
 	return {
