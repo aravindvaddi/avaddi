@@ -1,11 +1,11 @@
 import Layout from '../components/layout'
-import { getPageName, getPageContent } from '../lib/pages'
+import { getPageName, getPageContent, getLinkName } from '../lib/pages'
 import utilStyles from '../styles/utils.module.css'
 
 
-export default function Page({ pageData }) {
+export default function Page({ pageData, links }) {
 	return (
-		<Layout>
+		<Layout links={links}>
 			<header>
 				<h1 className={utilStyles.heading}>{pageData.heading}</h1>
 			</header>
@@ -26,10 +26,13 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
+
+	const links = getLinkName()
 	const pageData = await getPageContent(params.page)
+
 	return {
 		props: {
-			pageData
+			pageData, links
 		}
 	}
 }

@@ -1,14 +1,14 @@
 import Layout from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
-import { getPageContent } from '../lib/pages'
+import { getPageContent, getLinkName } from '../lib/pages'
 
 const page = 'home'
 
-export default function Home({ pageContent }) {
+export default function Home({ pageContent, links }) {
 	return (
 	<div>
 
-		<Layout>
+		<Layout links={links}>
 			<header className={utilStyles.header}>
 				<img
 					src='/images/profile-240w.jpg'
@@ -29,11 +29,13 @@ export default function Home({ pageContent }) {
 }
 
 export async function getStaticProps() {
+
+	const links = getLinkName()
 	const pageContent = await getPageContent(page)
 
 	return {
 		props: {
-			pageContent
+			pageContent, links
 		}
 	}
 }
