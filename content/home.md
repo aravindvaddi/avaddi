@@ -5,4 +5,4 @@ heading: Hello, It's nice to meet you
 
 My name is **Aravind Vaddi** and I am currently a 2nd year in the **Master of Science in Computer Science** program at **New York University**. 
 
-I gained experience working with a large financial institution, played key roles in the ideation and execution of a Model United Nations conference and worked on projects that have helped solidify my fundamental understanding of diverse technologies like cloud, machine learning, web development and more.
+I gained experience working with a large financial institution, played key roles in the ideation and execution of a Model United Nations conference and worked on projects that have helped solidify my fundamental understanding of diverse technologies like cloud computing, machine learning, web development and more.
