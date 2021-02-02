@@ -6,7 +6,7 @@ const siteTitle = 'Aravind Vaddi'
 const siteLink = 'https://avaddi.dev'
 const siteDescription = 'Aravind Vaddi\'s website'
 
-export default function Layout({ children }) {
+export default function Layout({ children, links }) {
 	return (
 		<div>
 			<Head>
@@ -18,7 +18,7 @@ export default function Layout({ children }) {
 				<meta name='twitter:card' content='summary_large_image' />
 				<meta name='description' content={siteDescription} />
 			</Head>
-			<Navbar>
+			<Navbar links={links}>
 			</Navbar>
 			<div className={styles.container}>
 				<div>{children}</div>
