@@ -1,13 +1,13 @@
 import styles from './navbar.module.css'
 import NavLink from './nav-link'
 
-export default function Navbar() {
+export default function Navbar({links}) {
 	return (
 		<nav className={styles.navbar}>
 			<div className={styles.navbarInnerWrapper}>
-				<NavLink page="home"></NavLink>
-				<NavLink page="resume"></NavLink>
-				<NavLink page="contact"></NavLink>
+				{
+					links.map(link => <NavLink key={link} page={link}></NavLink>)
+				}
 			</div>
 		</nav>
 	)
