@@ -17,6 +17,8 @@ export default function Layout({ children, links }) {
 				<meta property='og:url' content={siteLink} />
 				<meta name='twitter:card' content='summary_large_image' />
 				<meta name='description' content={siteDescription} />
+				<meta author='Aravind Vaddi' />
+				<meta name="keywords" content="Aravind Vaddi"></meta>
 			</Head>
 			<Navbar links={links}>
 			</Navbar>

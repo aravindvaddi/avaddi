@@ -19,7 +19,7 @@ A cloud based, serverless, event-driven chat-bot concierge that helps you find r
 
 A restaurant finder to help you find restaurants based on cuisine and location in realtime. Built using NextJS with code written in React. I used Zomato API to source restaurant data and Google Maps API to show the restaurants on the map. Deployed to Vercel using Continuous Deployment.
 
-<a href="https://stit-frontend-challenge.aravindvaddi.vercel.app/" target="_blank">Deployment</a> <br> **Note:** Requires location to show restaurants. Location data isn't stored. Defaults to New York City when location isn't accisible.
+<a href="https://stit-frontend-challenge.aravindvaddi.vercel.app/" target="_blank">Deployment</a> <br> **Note:** Requires location to show restaurants. Location data isn't stored. Defaults to New York City when location isn't accessible.
 
 ## **Security**
 
