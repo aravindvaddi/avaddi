@@ -5,7 +5,53 @@ heading: 'Aravind Vaddi'
 
 vav263@nyu.edu
 
+## **Education**
+
+### New York University, New York City, May 2021
+
+Master of Science in Computer Science, CGPA: 3.81 / 4.00
+
+Coursework:
+* Application Security
+* Big Data
+* Design And Analysis Of Algorithms
+* Information Visualization
+* Intro to Operating Systems
+* Machine Learning
+* Network Security
+* Programming Languages
+* Selected Topics in Computer Science: Cloud Computing
+* Special Topics in Computer Science: Intro to Java
+
+Honors:
+
+* Merit scholarship for undergraduate achievements
+
+## **Technical Skills**
+
+### Skills:
+
+* AWS: Elastic Search, Lambda, DynamoDB, API Gateway, SQS, SNS, S3, Rekognition, Lex
+* Git, Github, Travis CI, Vercel CD
+* ReactJS, NextJS, D3.js
+* Linux CLI / Shell scripting
+* Spark, Kakfa
+
+### Languages:
+
+I currently work with Python and JavaScript but am very comfortable with all the below languages.
+
+* Python
+* Java
+* JavaScript
+* C
+
 ## **Experience**
+
+### Course Assistant - Network Security: New York University, New York City - USA, January 2021 - May 2021
+
+* Automated some of the grading using scripts to extract text from PDFs and validating using regular expressions and hash tables
+* Graded assignments and held office hours to help students with doubts and questions about the subject matter
 
 ### Analyst/Apps Programmer:  Wells Fargo, Hyderabad - India, July 2018 - July 2019
 
@@ -20,50 +66,17 @@ vav263@nyu.edu
 * Worked on indexing existing systems with over 8000 active jobs
 * Monitored data loads of two biggest (~200 jobs) systems of a data warehouse
 
-## **Education**
-
-### New York University, New York City, May 2021
-
-#### Master of Science in Computer Science, CGPA: 3.89/4.00
-
-Relevant Coursework:
-
-* Design and Analysis of Algorithms
-* Big Data
-* Cloud Computing
-* Machine Learning
-* Application Security
-* Information Visualization
-
-Activities:
-
-* Spring 2020 graduate orientation leader
-* CSAW’19 volunteer
-
-Honors:
-
-* Merit scholarship for undergraduate achievements
-
-## **Technical Skills**
-
-### Languages:
-
-* Python
-* Java
-* JavaScript
-* C
-
-
-### Skills:
-
-* AWS: Elastic Search, Lambda, DynamoDB, API Gateway, SQS, SNS, S3, Rekognition, Lex
-* Git, Github, Travis CI, Vercel CD
-* React, NextJs
-* Linux CLI / Shell scripting
-
 ## **Activities**
 
-### Alumni Mentor: Computer Science and Engineering department, JNTUH			July 2018 - Dec 2018
+### Graduate Orientation Leader: New York University, Jan 2020 - Jan 2020
+
+* Part of a team of 15 graduate orientation leaders to organize Spring 2020 orientation for about 200 students.
+
+### CSAW'19 Student Volunteer: New York University, Nov 2019 - Nov 2019
+
+* Helped with the distribution of badges and other materials, provided guidance to guests and participants for the events and workshops during the Cyber Security Awareness Week of 2019.
+
+### Alumni Mentor: JNTUH Computer Science Department, July 2018 - Dec 2018
 
 * Undertook web design and development infomation sessions for undergraduate students
 * Conducted a hackathon on web development
