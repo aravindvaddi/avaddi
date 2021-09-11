@@ -3,6 +3,12 @@ name: 'projects'
 heading: 'My Projects'
 ---
 
+## **This Website**
+
+Personal website built using ReactJS and NextJS. It is deployed on Vercel through Continuous Deployment
+
+<a href="https://github.com/aravindvaddi/avaddi" target="_blank">Source</a>
+
 ## **Smart Door**
 
 A cloud-based video facial recognition authentication service for homeowners built on AWS using S3, Lambda, CloudFront, API Gateway, DynamoDB, Cognio, SNS and Rekognition services.
