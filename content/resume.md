@@ -5,6 +5,25 @@ heading: 'Aravind Vaddi'
 
 vav263@nyu.edu
 
+## **Experience**
+
+### Software Development Engineer at Amazon (AWS), Seattle, August 2021 - Present
+
+* Working on an energy platform to enable fast storage, processing and analysis of data from millions of IoT devices
+
+### Application Programmer at  Wells Fargo, Hyderabad - India, July 2018 - July 2019
+
+* Optimized critical Python, Perl and Shell scripts for server migration
+* Identified redundancies in Autosys job sets by 13% to fix job structure for optimality and conformity
+* Decreased failures to 0% by automating loading of Singapore exchange rates using REST APIs
+* Worked on fixing realtime bugs and crashes on an ETL style regulatory reporting data warehouse
+* Participated in Google’s Re-skilling India Program and verified as an expert in Python
+
+### Technical Intern at Wells Fargo, Hyderabad - India, Jan 2018 - June 2018
+
+* Worked on indexing existing systems with over 8000 active jobs
+* Monitored data loads of two biggest (~200 jobs) systems of a data warehouse
+
 ## **Education**
 
 ### New York University, New York City, May 2021
@@ -31,42 +50,27 @@ Honors:
 
 ### Skills:
 
-* AWS: Elastic Search, Lambda, DynamoDB, API Gateway, SQS, SNS, S3, Rekognition, Lex
-* Git, Github, Travis CI, Vercel CD
+* AWS tools: Elastic Search, Lambda, DynamoDB, API Gateway, SQS, SNS, S3, Rekognition, Lex
+* Git, Github, CI/CD
 * ReactJS, NextJS, D3.js
 * Linux CLI / Shell scripting
 * Spark, Kakfa
 
 ### Languages:
 
-I currently work with Python and JavaScript but am very comfortable with all the below languages.
+I currently work with TypeScript and Java but am very comfortable with all the below languages.
 
+* Java / Kotlin
+* TypeScript / JavaScript
 * Python
-* Java
-* JavaScript
 * C
 
-## **Experience**
+## **Other Activities**
 
-### Course Assistant - Network Security: New York University, New York City - USA, January 2021 - May 2021
+### Course Assistant at New York University, New York City, January 2021 - May 2021
 
 * Automated some of the grading using scripts to extract text from PDFs and validating using regular expressions and hash tables
 * Graded assignments and held office hours to help students with doubts and questions about the subject matter
-
-### Analyst/Apps Programmer:  Wells Fargo, Hyderabad - India, July 2018 - July 2019
-
-* Optimized critical Python, Perl and Shell scripts for server migration
-* Identified redundancies in Autosys job sets by 13% to fix job structure for optimality and conformity
-* Decreased failures to 0% by automating loading of Singapore exchange rates using REST APIs
-* Worked on fixing realtime bugs and crashes on an ETL style regulatory reporting data warehouse
-* Participated in Google’s Re-skilling India Program and verified as an expert in Python
-
-### Technical Intern:  Wells Fargo, Hyderabad - India, Jan 2018 - June 2018
-
-* Worked on indexing existing systems with over 8000 active jobs
-* Monitored data loads of two biggest (~200 jobs) systems of a data warehouse
-
-## **Activities**
 
 ### Graduate Orientation Leader: New York University, Jan 2020 - Jan 2020
 
