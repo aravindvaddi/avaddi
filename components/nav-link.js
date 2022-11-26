@@ -6,29 +6,27 @@ export default function NavLink(props) {
 
 	const home = (props.page === "home")
 
-	return (
-		<>
-		{ home ? (
+	return <>
+    { home ? (
 
-			<Link href="/">
-				<a className={styles.navLink}>
-					<div className={styles.navLinkWrapper}>
-						<Icons type={props.page} />
-						<span className={styles.navLinkCaption}>{props.page}</span>
-					</div>
-				</a>
-			</Link>
+        (<Link href="/" className={styles.navLink}>
 
-		) : (
-			<Link href="/[page]" as={`/${props.page}`}>
-				<a className={styles.navLink}>
-					<div className={styles.navLinkWrapper}>
-						<Icons type={props.page} />
-						<span className={styles.navLinkCaption}>{props.page}</span>
-					</div>
-				</a>
-			</Link>
-		)}
-		</>
-	)
+            <div className={styles.navLinkWrapper}>
+                <Icons type={props.page} />
+                <span className={styles.navLinkCaption}>{props.page}</span>
+            </div>
+
+        </Link>)
+
+    ) : (
+        (<Link href="/[page]" as={`/${props.page}`} className={styles.navLink}>
+
+            <div className={styles.navLinkWrapper}>
+                <Icons type={props.page} />
+                <span className={styles.navLinkCaption}>{props.page}</span>
+            </div>
+
+        </Link>)
+    )}
+    </>;
 }
